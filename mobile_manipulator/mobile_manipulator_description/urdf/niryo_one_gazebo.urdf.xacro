@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="niryo_one">
+    <!-- Enable Gazebo control-->
+
+    <!-- Import Robot -->
+    <xacro:include filename="$(find mobile_manipulator_description)/urdf/niryo_one.urdf.xacro"/>
+
+    <!-- Import Transmission -->
+    <xacro:include filename="$(find niryo_robot_description)/urdf/one/niryo_one.transmission.xacro"/>
+
+</robot>
